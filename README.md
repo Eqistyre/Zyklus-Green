@@ -1,2 +1,2 @@
-# GreenWorld
-## GreenWorld game
+# Zyklus-Green
+## Zyklus-Green
