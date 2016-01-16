@@ -31,9 +31,11 @@ bool MainMenu::init()
         return false;
     }
     
-    auto rootNode = CSLoader::createNode("");
-
-    addChild(rootNode);
-
+    auto rootNode = CSLoader::createNode("MainMenuScene.csb");
+    auto MainMenuBtnLayer = CSLoader::createNode("MainMenuBtnLayer.csb");
+    
+    this->addChild(rootNode);
+    rootNode->addChild(MainMenuBtnLayer);
+    
     return true;
 }

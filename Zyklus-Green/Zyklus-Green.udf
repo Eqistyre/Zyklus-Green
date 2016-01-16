@@ -4,12 +4,34 @@
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Mac" />
+        <LastRunType Value="Android" />
+      </Value>
+    </Item>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.ZyklusGreen" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="android-10" />
+        <iOS_Target Value="Zyklus-Green-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="Android" />
+        <FrameworkVersion Value="cocos2d-x-3.8.1" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
-        <ActiveDocument />
+        <OpenedDocuments>
+          <FilePathData Path="MainMenuScene.csd" />
+          <FilePathData Path="MainMenuBtnLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="MainMenuScene.csd" />
       </Value>
     </Item>
   </Properties>

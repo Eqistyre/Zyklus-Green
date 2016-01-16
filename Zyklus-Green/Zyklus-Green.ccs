@@ -2,7 +2,19 @@
   <PropertyGroup Name="Zyklus-Green" Version="2.3.3.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
-      <RootFolder Name="." />
+      <RootFolder Name=".">
+        <Folder Name="MainMenu">
+          <Image Name="bg.png" />
+          <Image Name="ExitBtn.png" />
+          <Image Name="ExitBtnClick.png" />
+          <Image Name="SettingBtn.png" />
+          <Image Name="SettingBtnClick.png" />
+          <Image Name="StartBtn.png" />
+          <Image Name="StartBtnClick.png" />
+        </Folder>
+        <Project Name="MainMenuScene.csd" Type="Scene" />
+        <Project Name="MainMenuBtnLayer.csd" Type="Scene" />
+      </RootFolder>
     </Group>
   </SolutionFolder>
 </Solution>

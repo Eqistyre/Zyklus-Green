@@ -28,25 +28,22 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-        glview = GLViewImpl::createWithRect("Zyklus-Green", Rect(0, 0, 1280, 720));
+        glview = GLViewImpl::createWithRect("Zyklus-Green", Rect(0, 0, 1334, 750));
         director->setOpenGLView(glview);
     }
 
-    director->getOpenGLView()->setDesignResolutionSize(1280, 720, ResolutionPolicy::SHOW_ALL);
+    director->getOpenGLView()->setDesignResolutionSize(1334, 750, ResolutionPolicy::SHOW_ALL);
 
     // turn on display FPS
     director->setDisplayStats(true);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
-
-    FileUtils::getInstance()->addSearchPath("button");
-    FileUtils::getInstance()->addSearchPath("image");
-    FileUtils::getInstance()->addSearchPath("music");
-    FileUtils::getInstance()->addSearchPath("text");
+    
+    FileUtils::getInstance()->addSearchPath("res");
 
     // create a scene. it's an autorelease object
-    auto scene = BeginnerScene::createScene();
+    auto scene = MainMenu::createScene();
 
     // run
     director->runWithScene(scene);

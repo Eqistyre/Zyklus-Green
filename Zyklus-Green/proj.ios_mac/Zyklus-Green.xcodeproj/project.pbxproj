@@ -10,12 +10,12 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* MainMenu.cpp */; };
-		46880B8B19C43A87006E1F66 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* MainMenu.cpp */; };
-		4A2546AE1C46456A006D24CF /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A2546AC1C46456A006D24CF /* Beginner.cpp */; };
-		4A2546AF1C46456A006D24CF /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A2546AC1C46456A006D24CF /* Beginner.cpp */; };
+		4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
+		4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
+		4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD001C4A2DC300891102 /* Beginner.cpp */; };
+		4ABFCD071C4A2DC300891102 /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD001C4A2DC300891102 /* Beginner.cpp */; };
+		4ABFCD081C4A2DC300891102 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD021C4A2DC300891102 /* MainMenu.cpp */; };
+		4ABFCD091C4A2DC300891102 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD021C4A2DC300891102 /* MainMenu.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -71,12 +71,12 @@
 		1D6058910D05DD3D006BFB54 /* Zyklus-Green-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyklus-Green-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
-		4A2546AC1C46456A006D24CF /* Beginner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beginner.cpp; sourceTree = "<group>"; };
-		4A2546AD1C46456A006D24CF /* Beginner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beginner.h; sourceTree = "<group>"; };
+		4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		4ABFCCFF1C4A2DC300891102 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ABFCD001C4A2DC300891102 /* Beginner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beginner.cpp; sourceTree = "<group>"; };
+		4ABFCD011C4A2DC300891102 /* Beginner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beginner.h; sourceTree = "<group>"; };
+		4ABFCD021C4A2DC300891102 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		4ABFCD031C4A2DC300891102 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -255,12 +255,12 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
-				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* MainMenu.cpp */,
-				46880B8719C43A87006E1F66 /* MainMenu.h */,
-				4A2546AC1C46456A006D24CF /* Beginner.cpp */,
-				4A2546AD1C46456A006D24CF /* Beginner.h */,
+				4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */,
+				4ABFCCFF1C4A2DC300891102 /* AppDelegate.h */,
+				4ABFCD001C4A2DC300891102 /* Beginner.cpp */,
+				4ABFCD011C4A2DC300891102 /* Beginner.h */,
+				4ABFCD021C4A2DC300891102 /* MainMenu.cpp */,
+				4ABFCD031C4A2DC300891102 /* MainMenu.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -365,6 +365,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = MW67VRDV69;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Zyklus-Green" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -429,10 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				46880B8A19C43A87006E1F66 /* MainMenu.cpp in Sources */,
+				4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */,
+				4ABFCD081C4A2DC300891102 /* MainMenu.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				4A2546AE1C46456A006D24CF /* Beginner.cpp in Sources */,
+				4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
@@ -442,10 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				4ABFCD071C4A2DC300891102 /* Beginner.cpp in Sources */,
+				4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* MainMenu.cpp in Sources */,
-				4A2546AF1C46456A006D24CF /* Beginner.cpp in Sources */,
+				4ABFCD091C4A2DC300891102 /* MainMenu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +462,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -481,6 +488,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -493,7 +501,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -515,6 +525,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
