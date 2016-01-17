@@ -40,6 +40,8 @@ public:
     void enterBackground();
     void enterForeground();
     
+    void adjustvolume(float volume);
+    
 private:
     void init();
     

@@ -98,6 +98,13 @@ void SoundManager::enterForeground()
     }
 }
 
+void SoundManager::adjustvolume(float volume){
+    float ot = volume;
+    
+    SimpleAudioEngine::getInstance()->setBackgroundMusicVolume(ot);
+    
+}
+
 void SoundManager::init()
 {
     if (!m_bInited) {
