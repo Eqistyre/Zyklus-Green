@@ -41,7 +41,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
     
     FileUtils::getInstance()->addSearchPath("res");
-
+    FileUtils::getInstance()->addSearchPath("res/music");
+    FileUtils::getInstance()->addSearchPath("res/effects");
+    
     // create a scene. it's an autorelease object
     auto scene = MainMenu::createScene();
 

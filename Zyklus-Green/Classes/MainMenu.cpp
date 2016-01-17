@@ -4,6 +4,7 @@
 #include "CCTransition.h"
 #include "SceneManager.h"
 #include "Black.h"
+#include "SoundManager.h"
 
 USING_NS_CC;
 
@@ -40,6 +41,9 @@ bool MainMenu::init()
     this->addChild(rootNode);
     rootNode->addChild(MainMenuBtnLayer);
     
+    //player background music
+    SoundManager::shareSoundManager()->playBackgroundMusic("V.A. - 120円の春オルゴール.mp3", true);
+    
     cocos2d::ui::Button* ExitBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("ExitBtn");
     
     ExitBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
@@ -59,5 +63,37 @@ bool MainMenu::init()
         }
     });
     
+    cocos2d::ui::Button* StartBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("StartBtn");
+    StartBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
+        switch (type) {
+            case cocos2d::ui::Widget::TouchEventType::BEGAN:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::MOVED:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::ENDED:
+                SoundManager::shareSoundManager()->playEffect("木牌.wav");
+                break;
+            case cocos2d::ui::Widget::TouchEventType::CANCELED:
+                break;
+            default:
+                break;
+        }
+    });
+    
+    cocos2d::ui::Button* SettingBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("SettingBtn");
+    SettingBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
+        switch (type) {
+            case cocos2d::ui::Widget::TouchEventType::BEGAN:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::MOVED:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::ENDED:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::CANCELED:
+                break;
+            default:
+                break;
+        }
+    });
     return true;
 }
