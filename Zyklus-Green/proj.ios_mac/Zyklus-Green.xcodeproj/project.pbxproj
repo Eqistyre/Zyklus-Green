@@ -10,6 +10,12 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		4A240C1A1C4B3218007A82CB /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C181C4B3218007A82CB /* SceneManager.cpp */; };
+		4A240C1B1C4B3218007A82CB /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C181C4B3218007A82CB /* SceneManager.cpp */; };
+		4A240C1E1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C1C1C4B32DD007A82CB /* HelloWorldScene.cpp */; };
+		4A240C1F1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C1C1C4B32DD007A82CB /* HelloWorldScene.cpp */; };
+		4A240C221C4B32FA007A82CB /* Black.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C201C4B32FA007A82CB /* Black.cpp */; };
+		4A240C231C4B32FA007A82CB /* Black.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C201C4B32FA007A82CB /* Black.cpp */; };
 		4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
 		4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
 		4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD001C4A2DC300891102 /* Beginner.cpp */; };
@@ -71,6 +77,12 @@
 		1D6058910D05DD3D006BFB54 /* Zyklus-Green-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zyklus-Green-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A240C181C4B3218007A82CB /* SceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneManager.cpp; sourceTree = "<group>"; };
+		4A240C191C4B3218007A82CB /* SceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneManager.h; sourceTree = "<group>"; };
+		4A240C1C1C4B32DD007A82CB /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../../../../CocosProjects/Osmanthus/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		4A240C1D1C4B32DD007A82CB /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../../../../../CocosProjects/Osmanthus/Classes/HelloWorldScene.h; sourceTree = "<group>"; };
+		4A240C201C4B32FA007A82CB /* Black.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Black.cpp; sourceTree = "<group>"; };
+		4A240C211C4B32FA007A82CB /* Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Black.h; sourceTree = "<group>"; };
 		4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		4ABFCCFF1C4A2DC300891102 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ABFCD001C4A2DC300891102 /* Beginner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beginner.cpp; sourceTree = "<group>"; };
@@ -255,12 +267,18 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4A240C1C1C4B32DD007A82CB /* HelloWorldScene.cpp */,
+				4A240C1D1C4B32DD007A82CB /* HelloWorldScene.h */,
+				4A240C181C4B3218007A82CB /* SceneManager.cpp */,
+				4A240C191C4B3218007A82CB /* SceneManager.h */,
 				4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */,
 				4ABFCCFF1C4A2DC300891102 /* AppDelegate.h */,
 				4ABFCD001C4A2DC300891102 /* Beginner.cpp */,
 				4ABFCD011C4A2DC300891102 /* Beginner.h */,
 				4ABFCD021C4A2DC300891102 /* MainMenu.cpp */,
 				4ABFCD031C4A2DC300891102 /* MainMenu.h */,
+				4A240C201C4B32FA007A82CB /* Black.cpp */,
+				4A240C211C4B32FA007A82CB /* Black.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -434,11 +452,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A240C221C4B32FA007A82CB /* Black.cpp in Sources */,
+				4A240C1A1C4B3218007A82CB /* SceneManager.cpp in Sources */,
 				4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */,
 				4ABFCD081C4A2DC300891102 /* MainMenu.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				4A240C1E1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,9 +469,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABFCD071C4A2DC300891102 /* Beginner.cpp in Sources */,
+				4A240C231C4B32FA007A82CB /* Black.cpp in Sources */,
 				4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */,
+				4A240C1F1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				4ABFCD091C4A2DC300891102 /* MainMenu.cpp in Sources */,
+				4A240C1B1C4B3218007A82CB /* SceneManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

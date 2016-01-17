@@ -14,6 +14,7 @@
         </Folder>
         <Project Name="MainMenuScene.csd" Type="Scene" />
         <Project Name="MainMenuBtnLayer.csd" Type="Scene" />
+        <Project Name="BlackScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>
