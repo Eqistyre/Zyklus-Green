@@ -3,6 +3,7 @@
 #include "ui/CocosGUI.h"
 #include "CCTransition.h"
 #include "SceneManager.h"
+#include "Black.h"
 
 USING_NS_CC;
 
@@ -48,10 +49,8 @@ bool MainMenu::init()
             case cocos2d::ui::Widget::TouchEventType::MOVED:
                 break;
             case cocos2d::ui::Widget::TouchEventType::ENDED:
-                SceneManager::sharedSceneManager()->changeScene(SceneManager::en_Black);
-                
-                //SceneManager::sharedSceneManager()->MTransitionFadeUp(2, SceneManager::en_Black);
-                //exit(0);
+                scheduleOnce(schedule_selector(Black::stopSeconds), 0.9f);
+                SceneManager::sharedSceneManager()->MTransitionFadeUp(0.9, SceneManager::en_Black);
                 break;
             case cocos2d::ui::Widget::TouchEventType::CANCELED:
                 break;

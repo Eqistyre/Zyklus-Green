@@ -45,3 +45,8 @@ bool Black::init()
     
     return true;
 }
+
+void Black::stopSeconds(float dt) {
+    log("Running");
+    exit(0);
+}

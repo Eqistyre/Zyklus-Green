@@ -61,7 +61,8 @@ void SceneManager::changeScene( EnumSceneType enScenType, bool isTrans, float ti
 void SceneManager::MTransitionFadeUp(float time, EnumSceneType enScenType)
 {
     Scene* pScene = getSceneByType(enScenType);
-    TransitionFadeUp::create(time, pScene);
+    auto ot = TransitionFadeUp::create(time, pScene);
+    Director::getInstance()->replaceScene(ot);
 }
 
 void SceneManager::pushScene( EnumSceneType enSceneType )
