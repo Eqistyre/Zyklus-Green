@@ -30,7 +30,7 @@ public:
     
     void changeScene(EnumSceneType enScenType, bool isTrans, float time);
     
-    void Fade(float time, EnumSceneType enScenType);
+    void MTransitionFadeUp(float time, EnumSceneType enScenType);
     
     void pushScene(EnumSceneType enSceneType);
     

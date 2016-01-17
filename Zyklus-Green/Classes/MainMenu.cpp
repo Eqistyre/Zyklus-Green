@@ -49,7 +49,9 @@ bool MainMenu::init()
                 break;
             case cocos2d::ui::Widget::TouchEventType::ENDED:
                 SceneManager::sharedSceneManager()->changeScene(SceneManager::en_Black);
-                exit(0);
+                
+                //SceneManager::sharedSceneManager()->MTransitionFadeUp(2, SceneManager::en_Black);
+                //exit(0);
                 break;
             case cocos2d::ui::Widget::TouchEventType::CANCELED:
                 break;
