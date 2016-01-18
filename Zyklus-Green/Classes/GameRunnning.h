@@ -10,6 +10,7 @@
 #define GameRunnning_h
 
 #include "cocos2d.h"
+#include "ui/CocosGUI.h"
 
 class GameRunning : public cocos2d::Layer
 {
@@ -23,8 +24,10 @@ public:
     void update(float delta);
     // implement the "static create()" method manually
     CREATE_FUNC(GameRunning);
+    cocos2d::ui::ImageView* Bg1;
+    cocos2d::ui::ImageView* Bg2;
 private:
-    
+    //cocos2d::ui::ImageView* Bg;
 };
 
 #endif /* GameRunnning_h */
