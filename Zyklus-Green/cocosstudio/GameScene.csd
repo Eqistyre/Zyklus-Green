@@ -6,7 +6,7 @@
       <ObjectData Name="Scene" Tag="4" ctype="GameNodeObjectData">
         <Size X="1334.0000" Y="750.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="-49473273" Tag="5" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="-1500.0000" Scale9Width="1280" Scale9Height="2160" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Bg" ActionTag="-49473273" Tag="5" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="-1500.0000" Scale9Width="1280" Scale9Height="2160" ctype="ImageViewObjectData">
             <Size X="1334.0000" Y="2250.0000" />
             <AnchorPoint ScaleX="0.5000" />
             <Position X="667.0000" />
