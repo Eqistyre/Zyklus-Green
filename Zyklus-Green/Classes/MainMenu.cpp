@@ -44,25 +44,6 @@ bool MainMenu::init()
     //player background music
     SoundManager::shareSoundManager()->playBackgroundMusic("V.A. - 120円の春オルゴール.mp3", true);
     
-    cocos2d::ui::Button* ExitBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("ExitBtn");
-    
-    ExitBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
-        switch (type) {
-            case cocos2d::ui::Widget::TouchEventType::BEGAN:
-                break;
-            case cocos2d::ui::Widget::TouchEventType::MOVED:
-                break;
-            case cocos2d::ui::Widget::TouchEventType::ENDED:
-                scheduleOnce(schedule_selector(Black::stopSeconds), 0.9f);
-                SceneManager::sharedSceneManager()->MTransitionFadeUp(0.9, SceneManager::en_Black);
-                break;
-            case cocos2d::ui::Widget::TouchEventType::CANCELED:
-                break;
-            default:
-                break;
-        }
-    });
-    
     cocos2d::ui::Button* StartBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("StartBtn");
     StartBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
         switch (type) {
@@ -72,6 +53,7 @@ bool MainMenu::init()
                 break;
             case cocos2d::ui::Widget::TouchEventType::ENDED:
                 SoundManager::shareSoundManager()->playEffect("木牌.wav");
+                SceneManager::sharedSceneManager()->MTransitionFadeUp(0.9, SceneManager::en_GameRunning);
                 break;
             case cocos2d::ui::Widget::TouchEventType::CANCELED:
                 break;
@@ -88,6 +70,7 @@ bool MainMenu::init()
             case cocos2d::ui::Widget::TouchEventType::MOVED:
                 break;
             case cocos2d::ui::Widget::TouchEventType::ENDED:
+                SoundManager::shareSoundManager()->playEffect("木牌.wav");
                 break;
             case cocos2d::ui::Widget::TouchEventType::CANCELED:
                 break;
@@ -95,5 +78,26 @@ bool MainMenu::init()
                 break;
         }
     });
+    
+    cocos2d::ui::Button* ExitBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("ExitBtn");
+    
+    ExitBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
+        switch (type) {
+            case cocos2d::ui::Widget::TouchEventType::BEGAN:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::MOVED:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::ENDED:
+                SoundManager::shareSoundManager()->playEffect("木牌.wav");
+                scheduleOnce(schedule_selector(Black::stopSeconds), 0.9f);
+                SceneManager::sharedSceneManager()->MTransitionFadeUp(0.9, SceneManager::en_Black);
+                break;
+            case cocos2d::ui::Widget::TouchEventType::CANCELED:
+                break;
+            default:
+                break;
+        }
+    });
+
     return true;
 }

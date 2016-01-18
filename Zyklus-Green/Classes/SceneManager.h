@@ -19,10 +19,11 @@ public:
     enum EnumSceneType
     {
         en_MainMenu,
-        en_Black
+        en_Black,
+        en_GameRunning
     };
     
-    static SceneManager* sharedSceneManager();;
+    static SceneManager* sharedSceneManager();
     
     void changeScene(EnumSceneType enScenType);
     

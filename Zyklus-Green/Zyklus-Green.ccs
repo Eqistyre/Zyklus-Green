@@ -15,6 +15,10 @@
         <Project Name="MainMenuScene.csd" Type="Scene" />
         <Project Name="MainMenuBtnLayer.csd" Type="Scene" />
         <Project Name="BlackScene.csd" Type="Scene" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Folder Name="GameScene">
+          <Image Name="BG.png" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

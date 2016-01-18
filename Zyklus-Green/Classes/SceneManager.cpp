@@ -9,6 +9,8 @@
 #include "SceneManager.h"
 #include "MainMenu.h"
 #include "Black.h"
+#include "GameRunnning.h"
+
 SceneManager* SceneManager::mSceneManager = NULL;
 
 SceneManager* SceneManager::sharedSceneManager()
@@ -92,6 +94,9 @@ Scene* SceneManager::getSceneByType( EnumSceneType enSceneType )
             break;
         case en_Black:
             pLayer = Black::create();
+            break;
+        case en_GameRunning:
+            pLayer = GameRunning::create();
             break;
         default:
             break;

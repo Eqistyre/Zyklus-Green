@@ -18,6 +18,10 @@
 		4A240C231C4B32FA007A82CB /* Black.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C201C4B32FA007A82CB /* Black.cpp */; };
 		4A240C261C4BCC03007A82CB /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C241C4BCC03007A82CB /* SoundManager.cpp */; };
 		4A240C271C4BCC03007A82CB /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C241C4BCC03007A82CB /* SoundManager.cpp */; };
+		4A240C2A1C4C7B8A007A82CB /* SceneTransition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C281C4C7B8A007A82CB /* SceneTransition.cpp */; };
+		4A240C2B1C4C7B8A007A82CB /* SceneTransition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C281C4C7B8A007A82CB /* SceneTransition.cpp */; };
+		4A240C2E1C4C8221007A82CB /* GameRunnning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C2C1C4C8221007A82CB /* GameRunnning.cpp */; };
+		4A240C2F1C4C8221007A82CB /* GameRunnning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A240C2C1C4C8221007A82CB /* GameRunnning.cpp */; };
 		4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
 		4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */; };
 		4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ABFCD001C4A2DC300891102 /* Beginner.cpp */; };
@@ -87,6 +91,10 @@
 		4A240C211C4B32FA007A82CB /* Black.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Black.h; sourceTree = "<group>"; };
 		4A240C241C4BCC03007A82CB /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
 		4A240C251C4BCC03007A82CB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		4A240C281C4C7B8A007A82CB /* SceneTransition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneTransition.cpp; sourceTree = "<group>"; };
+		4A240C291C4C7B8A007A82CB /* SceneTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTransition.h; sourceTree = "<group>"; };
+		4A240C2C1C4C8221007A82CB /* GameRunnning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameRunnning.cpp; sourceTree = "<group>"; };
+		4A240C2D1C4C8221007A82CB /* GameRunnning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRunnning.h; sourceTree = "<group>"; };
 		4ABFCCFE1C4A2DC300891102 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		4ABFCCFF1C4A2DC300891102 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ABFCD001C4A2DC300891102 /* Beginner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beginner.cpp; sourceTree = "<group>"; };
@@ -285,6 +293,10 @@
 				4A240C251C4BCC03007A82CB /* SoundManager.h */,
 				4A240C201C4B32FA007A82CB /* Black.cpp */,
 				4A240C211C4B32FA007A82CB /* Black.h */,
+				4A240C281C4C7B8A007A82CB /* SceneTransition.cpp */,
+				4A240C291C4C7B8A007A82CB /* SceneTransition.h */,
+				4A240C2C1C4C8221007A82CB /* GameRunnning.cpp */,
+				4A240C2D1C4C8221007A82CB /* GameRunnning.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -459,10 +471,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A240C221C4B32FA007A82CB /* Black.cpp in Sources */,
+				4A240C2A1C4C7B8A007A82CB /* SceneTransition.cpp in Sources */,
 				4A240C1A1C4B3218007A82CB /* SceneManager.cpp in Sources */,
 				4ABFCD041C4A2DC300891102 /* AppDelegate.cpp in Sources */,
 				4ABFCD081C4A2DC300891102 /* MainMenu.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				4A240C2E1C4C8221007A82CB /* GameRunnning.cpp in Sources */,
 				4ABFCD061C4A2DC300891102 /* Beginner.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				4A240C1E1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */,
@@ -475,8 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A240C2F1C4C8221007A82CB /* GameRunnning.cpp in Sources */,
 				4ABFCD071C4A2DC300891102 /* Beginner.cpp in Sources */,
 				4A240C231C4B32FA007A82CB /* Black.cpp in Sources */,
+				4A240C2B1C4C7B8A007A82CB /* SceneTransition.cpp in Sources */,
 				4ABFCD051C4A2DC300891102 /* AppDelegate.cpp in Sources */,
 				4A240C1F1C4B32DD007A82CB /* HelloWorldScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
