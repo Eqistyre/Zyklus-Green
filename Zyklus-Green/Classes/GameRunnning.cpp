@@ -42,8 +42,8 @@ bool GameRunning::init()
     auto rootNode = CSLoader::createNode("GameScene.csb");
     addChild(rootNode);
 
-    Bg1 = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg");
-    Bg2 = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg");
+    Bg1 = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg1");
+    Bg2 = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg2");
 //
 //    cocos2d::ui::ImageView* Bg = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg");
 //    
@@ -58,16 +58,27 @@ bool GameRunning::init()
 
 void GameRunning::update(float delta)
 {
-    int y = Bg1->getPositionY();
-    int speed = 1.5;
-    log("%d",y);
-    y -= speed;
-    Bg1->setPositionY(y);
+    int y1 = Bg1->getPositionY();
+    int y2 = Bg2->getPositionY();
     
-    if (y == 750) {
-        Bg2->setPositionY(1500);
+    int speed = 5;
+    log("y1%d",y1);
+    y1 -= speed;
+    Bg1->setPositionY(y1);
+    
+    //Unlimited
+    log("y2%d",y2);
+    if (y1 <= -3000) {
+        y2 -= speed;
+        Bg2->setPositionY(y2);
+        if (y2 <= -3000) {
+            y1 = -3000;
+            Bg1->setPositionY(y1);
+            y2 = 750;
+            Bg2->setPositionY(y2);
+            
+        }
     }
-//
 //    //cocos2d::ui::ImageView* Bg = (cocos2d::ui::ImageView*)rootNode->getChildByName("Bg");
 //    
 //    //Bg->setVisible(false);
