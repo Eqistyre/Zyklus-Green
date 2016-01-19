@@ -44,6 +44,11 @@ bool MainMenu::init()
     //player background music
     SoundManager::shareSoundManager()->playBackgroundMusic("V.A. - 120円の春オルゴール.mp3", true);
     
+    auto MainSceneSettingLayer = CSLoader::createNode("MainSceneSettingLayer.csb");
+    this->addChild(MainSceneSettingLayer);
+    MainSceneSettingLayer->setVisible(false);
+    
+    
     cocos2d::ui::Button* StartBtn = (cocos2d::ui::Button*)MainMenuBtnLayer->getChildByName("StartBtn");
     StartBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
         switch (type) {
@@ -71,6 +76,7 @@ bool MainMenu::init()
                 break;
             case cocos2d::ui::Widget::TouchEventType::ENDED:
                 SoundManager::shareSoundManager()->playEffect("木牌.wav");
+                MainSceneSettingLayer->setVisible(true);
                 break;
             case cocos2d::ui::Widget::TouchEventType::CANCELED:
                 break;
@@ -98,6 +104,26 @@ bool MainMenu::init()
                 break;
         }
     });
-
+    
+    
+    //add MainMenuSettingLayer.
+    cocos2d::ui::Button* XBtn = (cocos2d::ui::Button*)MainSceneSettingLayer->getChildByName("XBtn");
+    
+    XBtn->addTouchEventListener([=](Ref* pSender, cocos2d::ui::Widget::TouchEventType type) {
+        switch (type) {
+            case cocos2d::ui::Widget::TouchEventType::BEGAN:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::MOVED:
+                break;
+            case cocos2d::ui::Widget::TouchEventType::ENDED:
+                MainSceneSettingLayer->setVisible(false);
+                break;
+            case cocos2d::ui::Widget::TouchEventType::CANCELED:
+                break;
+            default:
+                break;
+        }
+    });
+    
     return true;
 }

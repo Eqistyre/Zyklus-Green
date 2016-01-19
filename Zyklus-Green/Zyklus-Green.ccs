@@ -11,6 +11,13 @@
           <Image Name="SettingBtnClick.png" />
           <Image Name="StartBtn.png" />
           <Image Name="StartBtnClick.png" />
+          <Image Name="SettingWordsLayer.png" />
+          <Image Name="XBtn.png" />
+          <Image Name="XClickBtn.png" />
+          <Image Name="Btn.png" />
+          <Image Name="BtnClick.png" />
+          <Image Name="innerBan.png" />
+          <Image Name="innerSure.png" />
         </Folder>
         <Project Name="MainMenuScene.csd" Type="Scene" />
         <Project Name="MainMenuBtnLayer.csd" Type="Scene" />
@@ -19,6 +26,7 @@
         <Folder Name="GameScene">
           <Image Name="BG.png" />
         </Folder>
+        <Project Name="MainSceneSettingLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
