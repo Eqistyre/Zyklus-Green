@@ -27,6 +27,21 @@
           <Image Name="BG.png" />
         </Folder>
         <Project Name="MainSceneSettingLayer.csd" Type="Layer" />
+        <Folder Name="GameRunningScene">
+          <Image Name="EmptySlot.png" />
+          <Image Name="FieldSlot.png" />
+          <Image Name="LowClickBtn.png" />
+          <Image Name="LowBtn.png" />
+          <Image Name="BBtn.png" />
+          <Image Name="BClickBtn.png" />
+          <Image Name="DBtn.png" />
+          <Image Name="DClickBtn.png" />
+          <Image Name="LBtn.png" />
+          <Image Name="RBtn.png" />
+          <Image Name="RClickBtn.png" />
+          <Image Name="LClickBtn.png" />
+        </Folder>
+        <Project Name="GameRunningLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

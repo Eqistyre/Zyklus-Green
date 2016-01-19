@@ -53,6 +53,10 @@ bool GameRunning::init()
     
     schedule(schedule_selector(GameRunning::update),0.02f);
     
+    //add Btn
+    auto GameRunningLayer = CSLoader::createNode("GameRunningLayer.csb");
+    rootNode->addChild(GameRunningLayer);
+    
     return true;
 }
 
